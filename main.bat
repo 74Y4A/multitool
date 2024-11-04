@@ -20,8 +20,8 @@ echo          ║
 set /p input=.%BS%      ╚═══════^>
 if /I %input% EQU 1 start bruteforce.bat
 if /I %input% EQU 2 start ipscan.exe
-if /I %input% EQU 2 start iptool.bat
-if /I %input% EQU 2 start sessionsploit.exe
+if /I %input% EQU 3 start iptool.bat
+if /I %input% EQU 4 start sessionsploit.exe
 cls
 goto start
 echo
